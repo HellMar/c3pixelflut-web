@@ -1,0 +1,6 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{343:function(t,o,e){},344:function(t,o,e){},354:function(t,o,e){t.exports=e.p+"assets/img/logo.77fae680.svg"},355:function(t,o,e){"use strict";
+/*!
+ * vue-no-ssr v1.1.1
+ * (c) 2018-present egoist <0x142857@gmail.com>
+ * Released under the MIT License.
+ */var n={name:"NoSsr",functional:!0,props:{placeholder:String,placeholderTag:{type:String,default:"div"}},render:function(t,o){var e=o.parent,n=o.slots,s=o.props,r=n(),a=r.default;void 0===a&&(a=[]);var l=r.placeholder;return e._isMounted?a:(e.$once("hook:mounted",(function(){e.$forceUpdate()})),s.placeholderTag&&(s.placeholder||l)?t(s.placeholderTag,{class:["no-ssr-placeholder"]},s.placeholder||l):a.length>0?a.map((function(){return t(!1)})):t(!1))}};t.exports=n},356:function(t,o,e){"use strict";e(343)},357:function(t,o,e){"use strict";e(344)},365:function(t,o,e){"use strict";e.r(o);var n=e(355),s={components:{"no-ssr":e.n(n).a}},r=(e(356),e(357),e(53)),a=Object(r.a)(s,(function(){var t=this.$createElement,o=this._self._c||t;return o("figure",[o("router-link",{staticClass:"logo-link",attrs:{to:"/"}},[o("img",{staticClass:"logo",attrs:{src:e(354),id:"logo",alt:"RüTüTa Logo"}})]),this._v(" "),o("no-ssr",[o("pixel-grid",{staticClass:"grid"})],1)],1)}),[],!1,null,"b7daf33a",null);o.default=a.exports}}]);
