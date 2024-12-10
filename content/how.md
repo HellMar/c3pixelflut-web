@@ -6,9 +6,7 @@
 
 Infos zu den IPs folgen sobald sie feststehen. 
 
-::: warning
-⚠️ Verbindungen aus dem WLAN werden blockiert️ ⚠️
-:::
+<font size="5" style="color:red;">⚠️ Verbindungen aus dem WLAN werden blockiert️⚠️</font>
 
 ### Befehle
 
