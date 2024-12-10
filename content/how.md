@@ -6,8 +6,9 @@
 
 Infos zu den IPs folgen sobald sie feststehen. 
 
-> [!WARNING]
-> ⚠️ Verbindungen aus dem WLAN werden blockiert️ ⚠️
+::: warning
+⚠️ Verbindungen aus dem WLAN werden blockiert️ ⚠️
+:::
 
 ### Befehle
 
@@ -21,7 +22,7 @@ OFFSET <x> <y>               # Setze den offset für die zuküntigen Pixel der C
 ### Beispiel Python3
 
 #### Script in Python3
-```python3
+``` python3
 import sys
 import socket
 from PIL import Image
@@ -44,6 +45,6 @@ for x in xrange(w):
 ```
 
 #### Aufruf
-```bash
+``` bash
 python3 client.py ip.ip.ip.ip 1234 picture.png
 ```
