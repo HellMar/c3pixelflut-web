@@ -1,11 +1,6 @@
 name: build
 on:
-  # Trigger the workflow on push or pull request,
-  # but only for the master branch
   push:
-    branches:
-      - master
-  pull_request:
     branches:
       - master
 jobs:
@@ -18,3 +13,7 @@ jobs:
           node-version: "16"
       - run: npm ci
       - run: npm run build
+      - uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: dist # The folder the action should deploy.
