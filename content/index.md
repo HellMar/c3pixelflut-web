@@ -9,5 +9,5 @@ Pixelflut ist ein Multiplayer Battle LAN-Spiel, bei dem jeder Pixel eines Bildes
 
 Wir freuen uns euch kennen zu lernen.
 
-**Auf dem 38c3 in Saal 3 beim ChaosWest**
+**Wo? [Hier!](/where)**
 :::
