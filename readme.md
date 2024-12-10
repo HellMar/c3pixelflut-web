@@ -24,7 +24,7 @@ $ npm run build
 
 ## Deploy a new version
 
-To deploy a new version of the site push your changes to the ```deploy``` branch via a pull request. The ```deploy-ghpages``` GitHub Action will then build and release on GH-Pages.
+To deploy a new version of the site push your changes to the ```master``` branch via a pull request. The ```build``` GitHub Action will then build and deploy to ```gh-pages``` branch.
 
 ## Frameworks
 
