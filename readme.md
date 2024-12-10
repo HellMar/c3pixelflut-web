@@ -6,6 +6,7 @@
 ## Base
 
 Based on https://github.com/chaostreff-flensburg/ruetueta-web
+
 Many ♡ to [Chaostreff Flensburg](https://chaos.social/@chaos_fl) for that.
 
 ## Build Setup
