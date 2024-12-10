@@ -1,12 +1,20 @@
 <template>
   <section class="layout">
-    <ruetueta-header class="header"></ruetueta-header>
+    <c3pixelflut-header class="header"></c3pixelflut-header>
+    <c3pixelflut-nav class="nav"></c3pixelflut-nav>
+
+    <template v-if="$page.frontmatter.isHomepage">
+      <section class="intro text card">
+        <Content slot-key="intro-text"/>
+      </section>
+      <c3pixelflut-video class="intro video card" />
+    </template>
 
     <main class="content">
       <Content/>
     </main>
 
-    <ruetueta-footer class="footer"></ruetueta-footer>
+    <c3pixelflut-footer class="footer"></c3pixelflut-footer>
   </section>
 </template>
 

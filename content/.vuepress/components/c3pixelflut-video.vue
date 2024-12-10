@@ -1,9 +1,9 @@
 <template>
   <section @click="clicked = true">
     <div v-if="!clicked" class="placeholder">
-      <img class="icon" src="../../assets/youtube.svg" alt="Das Video zu den ersten 23. RüTüTa">
+      <img class="icon" src="../../assets/youtube.svg" alt="Pixelflut erklärt!">
     </div>
-    <iframe v-if="clicked" src="https://www.youtube-nocookie.com/embed/wl2F9yzJWSw" frameborder="0" allowfullscreen></iframe>
+    <iframe v-if="clicked" src="https://www.youtube-nocookie.com/embed/eteH11hwlwo" frameborder="0" allowfullscreen></iframe>
   </section>
 </template>
 

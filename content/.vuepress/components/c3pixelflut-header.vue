@@ -1,7 +1,7 @@
 <template>
   <figure>
     <router-link to="/" class="logo-link">
-      <img src="../../assets/logo.svg" class="logo" id="logo" alt="RüTüTa Logo">
+      <img src="../../assets/logo.svg" class="logo" id="logo" alt="c3Pixelflut Logo">
     </router-link>
     <no-ssr>
       <pixel-grid class="grid"></pixel-grid>

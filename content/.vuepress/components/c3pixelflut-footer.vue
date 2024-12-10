@@ -1,8 +1,7 @@
 <template>
   <footer>
     <section>
-      <p>Eine Veranstaltung des <a href="https://chaostreff-flensburg.de/">Chaostreff Flensburg e.V.</a></p>
-      <router-link to="/impressum.html">Impressum & Datenschutz</router-link>
+      <p>Website based on <a href="https://github.com/chaostreff-flensburg/ruetueta-web">https://github.com/chaostreff-flensburg/ruetueta-web</a></p>
     </section>
   </footer>
 </template>

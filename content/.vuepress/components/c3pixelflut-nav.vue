@@ -1,9 +1,9 @@
 <template>
   <section>
     <nav>
-      <router-link to="/tickets" class="nav-link">Tickets</router-link>
-      <router-link to="/fahrplan" class="nav-link">Fahrplan</router-link>
-      <router-link to="/anfahrt-unterkunft" class="nav-link">Anfahrt & Unterkunft</router-link>
+      <router-link to="/index" class="nav-link">Start</router-link>
+      <router-link to="/how" class="nav-link">Wie geht das?</router-link>
+      <router-link to="/where" class="nav-link">Wo?</router-link>
       <router-link to="/faq" class="nav-link">F.A.Q.</router-link>
     </nav>
   </section>

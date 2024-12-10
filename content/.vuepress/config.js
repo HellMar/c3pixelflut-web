@@ -1,6 +1,6 @@
 module.exports = {
-  title: "Die vierten 23. Rüspeler Tüfteltage",
-  description: "Das online Frickelfestival auf dem Luettenshoff. 09. April 2022",
+  title: "c3Pixelflut",
+  description: "Pixelflut auf dem Chaos Communication Congress",
   locales: {
     // Vuepress uses the default lang-attribute 'en-US'
     "/": {

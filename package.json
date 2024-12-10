@@ -1,7 +1,7 @@
 {
-  "name": "ruetueta",
+  "name": "c3Pixelflut",
   "version": "0.0.1",
-  "author": "Thorben Dittmar <roikiermedia@users.noreply.github.com>",
+  "author": "c3Pixelflut",
   "private": true,
   "scripts": {
     "dev": "vuepress dev content",
