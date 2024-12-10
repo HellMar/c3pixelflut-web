@@ -1,7 +1,7 @@
 # c3pixelflut-web
 
 ![build](https://github.com/HellMar/c3pixelflut-web/actions/workflows/build.yml/badge.svg) 
-![deploy-ghpages](https://github.com/HellMar/c3pixelflut-web/actions/workflows/deploy-ghpages.yml/badge.svg) 
+![pages-build-deployment](https://github.com/HellMar/c3pixelflut-web/actions/workflows/pages/pages-build-deployment/badge.svg) 
 
 ## Base
 
