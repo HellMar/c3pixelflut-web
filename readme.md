@@ -1,11 +1,12 @@
-# ruetueta-web
+# c3pixelflut-web
 
-![build](https://github.com/chaostreff-flensburg/ruetueta-web/actions/workflows/build.yml/badge.svg) 
-![deploy-ghpages](https://github.com/chaostreff-flensburg/ruetueta-web/actions/workflows/deploy-ghpages.yml/badge.svg) 
+![build](https://github.com/HellMar/c3pixelflut-web/actions/workflows/build.yml/badge.svg) 
+![deploy-ghpages](https://github.com/HellMar/c3pixelflut-web/actions/workflows/deploy-ghpages.yml/badge.svg) 
 
-<!-- ## Development
+## Base
 
-Pushing to master is restricted. Please work in a `feature/` or `bug/` branch and create a pull request. Merging requires the CI passing, an approved review and the branch being up to date. -->
+Based on https://github.com/chaostreff-flensburg/ruetueta-web
+Many ♡ to [Chaostreff Flensburg](https://chaos.social/@chaos_fl) for that.
 
 ## Build Setup
 
@@ -30,4 +31,4 @@ For detailed explanation on how things work, checkout the [Vuepress docs](https:
 
 ---
 
-Made with ♡ at [Chaostreff Flensburg](https://twitter.com/chaos_fl) | [CI & CD](https://drone.ctfl.space/chaostreff-flensburg/ruetueta-web) | [License](./LICENSE)
+[License](./LICENSE)
