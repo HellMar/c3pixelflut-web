@@ -1,10 +1,8 @@
 # Wie?
 
 ### Server IPs
-~~Der Server an der Wand mit der IP **151.217.111.34** oder **2001:67c:20a1:1111:2051:5dff:feda:2983** lauscht auf dem TCP-Port **1234**~~
-~~Der Server an der Wand oder der Chaos West Stage mit der IP **151.217.176.193** oder **2001:67c:20a1:1176:202:c9ff:fe5a:28f9** lauscht auf dem TCP-Port **1234**~~
-
-Infos zu den IPs folgen sobald sie feststehen. 
+Den Server an der Wand erreicht ihr unter **wall.c3pixelflut.de** oder der IP **151.217.2.151* und lauscht auf dem TCP-Port **1337**
+Der Server für Einsteiger ist erreichbar via **newcomer.c3pixelflut.de** oder der IP **151.217.2.???* und lauscht auf dem TCP-Port **1337**
 
 <font size="5" style="color:red;">⚠️ Verbindungen aus dem WLAN werden blockiert️⚠️</font>
 
