@@ -7,6 +7,10 @@ Der Server für Einsteiger ist erreichbar via **newcomer.c3pixelflut.de** oder d
 
 <font size="5" style="color:red;">⚠️ Verbindungen aus dem WLAN werden blockiert️⚠️</font>
 
+### Statistiken
+
+Die Statistiken zu unserem Server findest du unter **[stats.c3pixelflut.de](https://stats.c3pixelflut.de)**
+
 ### Befehle
 
 ```
