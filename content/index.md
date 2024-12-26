@@ -11,3 +11,5 @@ Wir freuen uns euch kennen zu lernen.
 
 **Wo? [Hier!](/where)**
 :::
+
+[Mastodon](https://chaos.social/@c3Pixelflut)
