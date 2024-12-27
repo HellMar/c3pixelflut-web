@@ -41,4 +41,4 @@ You can find it here: [Server Source](https://github.com/bits0rcerer/wellenbrech
 Feel free to support us. [Source](https://github.com/HellMar/c3pixelflut-web)
 
 **Until then**
-In case of Pixel-Panic: [CALL DECT PIXL \(7495\)](tel:7495)**
+**In case of Pixel-Panic: [CALL DECT PIXL \(7495\)](tel:7495)**
