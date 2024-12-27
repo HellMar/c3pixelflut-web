@@ -11,7 +11,7 @@
     <link rel="preload" href="/fonts/space-mono-v4-latin/space-mono-v4-latin-700italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <meta name="description" content="Pixelflut auf dem Chaos Communication Congress">
     
-    <link rel="preload" href="/assets/css/0.styles.7c24f528.css" as="style"><link rel="preload" href="/assets/js/app.7c629e52.js" as="script"><link rel="preload" href="/assets/js/3.82b75c38.js" as="script"><link rel="preload" href="/assets/js/2.f78977e3.js" as="script"><link rel="preload" href="/assets/js/7.2ba7f8e7.js" as="script"><link rel="preload" href="/assets/js/11.80a3dd03.js" as="script"><link rel="preload" href="/assets/js/6.0dbc7bba.js" as="script"><link rel="prefetch" href="/assets/js/10.f35156f0.js"><link rel="prefetch" href="/assets/js/12.d8b51b86.js"><link rel="prefetch" href="/assets/js/13.95077184.js"><link rel="prefetch" href="/assets/js/4.59e9214a.js"><link rel="prefetch" href="/assets/js/5.c007c242.js"><link rel="prefetch" href="/assets/js/8.6cf19d1f.js"><link rel="prefetch" href="/assets/js/9.325fc941.js">
+    <link rel="preload" href="/assets/css/0.styles.7c24f528.css" as="style"><link rel="preload" href="/assets/js/app.1927210f.js" as="script"><link rel="preload" href="/assets/js/3.82b75c38.js" as="script"><link rel="preload" href="/assets/js/2.f78977e3.js" as="script"><link rel="preload" href="/assets/js/7.2ba7f8e7.js" as="script"><link rel="preload" href="/assets/js/11.1a5de5ad.js" as="script"><link rel="preload" href="/assets/js/6.0dbc7bba.js" as="script"><link rel="prefetch" href="/assets/js/10.1a54412b.js"><link rel="prefetch" href="/assets/js/12.f2871837.js"><link rel="prefetch" href="/assets/js/13.95077184.js"><link rel="prefetch" href="/assets/js/4.59e9214a.js"><link rel="prefetch" href="/assets/js/5.c007c242.js"><link rel="prefetch" href="/assets/js/8.6cf19d1f.js"><link rel="prefetch" href="/assets/js/9.325fc941.js">
     <link rel="stylesheet" href="/assets/css/0.styles.7c24f528.css">
   </head>
   <body>
@@ -19,27 +19,29 @@
 PX &lt;x&gt; &lt;y&gt;                   # Antwort des Servers entspricht dem Hexadezimal Farbe des Pixels
 SIZE                         # Antwort des Servers entspricht der Spielfeldgröße auf dem Server
 OFFSET &lt;x&gt; &lt;y&gt;               # Setze den offset für die zuküntigen Pixel der Connection
-</code></pre></div><h3 id="beispiel-python3">Beispiel Python3</h3> <h4 id="script-in-python3">Script in Python3</h4> <div class="language-python3 extra-class"><pre class="language-text"><code>import sys
+</code></pre></div><h3 id="beispiel-python3">Beispiel Python3</h3> <h4 id="script-in-python3">Script in Python3</h4> <div class="language-python3 extra-class"><pre class="language-text"><code>#!/usr/bin/python3
+
+import sys
 import socket
 from PIL import Image
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.connect((sys.argv[1], int(sys.argv[2])))
 
-def pixel(x,y,r,g,b,a=255):
-  if a == 255:
-    sock.send('PX %d %d %02x%02x%02x\n' % (x,y,r,g,b))
-  else:
-    sock.send('PX %d %d %02x%02x%02x%02x\n' % (x,y,r,g,b,a))
+def pixel(x, y, r, g, b, a=255):
+    if a == 255:
+        sock.send(b'PX %d %d %02x%02x%02x\n' % (x, y, r, g, b))
+    else:
+        sock.send(b'PX %d %d %02x%02x%02x%02x\n' % (x, y, r, g, b, a))
 
 im = Image.open(sys.argv[3]).convert('RGBA')
-_,_,w,h = im.getbbox()
-for x in xrange(w):
-  for y in xrange(h):
-    r,g,b,a = im.getpixel((x,y))
-    pixel(x,y,r,g,b,a)
-</code></pre></div><h4 id="aufruf">Aufruf</h4> <div class="language-bash extra-class"><pre class="language-bash"><code>python3 client.py ip.ip.ip.ip <span class="token number">1234</span> picture.png
+_, _, w, h = im.getbbox()
+for x in range(w):
+    for y in range(h):
+        r, g, b, a = im.getpixel((x, y))
+        pixel(x, y, r, g, b, a)
+</code></pre></div><h4 id="aufruf">Aufruf</h4> <div class="language-bash extra-class"><pre class="language-bash"><code>python3 client.py wall.c3pixelflut.de <span class="token number">1337</span> picture.png
 </code></pre></div></div></main> <footer class="footer" data-v-206dbb25><section data-v-206dbb25><p data-v-206dbb25>Website based on <a href="https://github.com/chaostreff-flensburg/ruetueta-web" data-v-206dbb25>https://github.com/chaostreff-flensburg/ruetueta-web</a></p></section></footer></section><div class="global-ui"></div></div>
-    <script src="/assets/js/app.7c629e52.js" defer></script><script src="/assets/js/3.82b75c38.js" defer></script><script src="/assets/js/2.f78977e3.js" defer></script><script src="/assets/js/7.2ba7f8e7.js" defer></script><script src="/assets/js/11.80a3dd03.js" defer></script><script src="/assets/js/6.0dbc7bba.js" defer></script>
+    <script src="/assets/js/app.1927210f.js" defer></script><script src="/assets/js/3.82b75c38.js" defer></script><script src="/assets/js/2.f78977e3.js" defer></script><script src="/assets/js/7.2ba7f8e7.js" defer></script><script src="/assets/js/11.1a5de5ad.js" defer></script><script src="/assets/js/6.0dbc7bba.js" defer></script>
   </body>
 </html>
