@@ -18,7 +18,6 @@ Den findest du hier [Server Source](https://github.com/bits0rcerer/wellenbrecher
 **Wie kann ich etwas zur Website beitragen?**
 Feel free to support us. [Source](https://github.com/HellMar/c3pixelflut-web)
 
-**Bis dahin **
 **In case of Pixel-Panic: [CALL DECT PIXL \(7495\)](tel:7495)**
 
 
@@ -40,5 +39,4 @@ You can find it here: [Server Source](https://github.com/bits0rcerer/wellenbrech
 **How can I contribute to the website?**
 Feel free to support us. [Source](https://github.com/HellMar/c3pixelflut-web)
 
-**Until then**
 **In case of Pixel-Panic: [CALL DECT PIXL \(7495\)](tel:7495)**

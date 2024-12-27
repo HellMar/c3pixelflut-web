@@ -12,4 +12,4 @@ Wir freuen uns euch kennen zu lernen.
 **Wo? [Hier!](/where)**
 :::
 
-[Mastodon](https://chaos.social/@c3Pixelflut)
+**In case of Pixel-Panic: [CALL DECT PIXL \(7495\)](tel:7495)**
