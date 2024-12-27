@@ -1,7 +1,7 @@
 # Wie?
 
 ### Server IPs
-Den Server an der Wand erreicht ihr unter **wall.c3pixelflut.de** oder der IP **151.217.2.151** und lauscht auf dem TCP-Port **1337**
+Den Server an der Wand erreicht ihr unter **wall.c3pixelflut.de** oder der IP **151.217.2.161** und lauscht auf dem TCP-Port **1337**
 
 Der Server für Einsteiger ist erreichbar via **newcomer.c3pixelflut.de** oder der IP **151.217.2.166** und lauscht auf dem TCP-Port **1337**
 
