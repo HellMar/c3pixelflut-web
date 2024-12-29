@@ -1,9 +1,10 @@
 # Wie?
 
 ### Server IPs
-Den Server an der Wand erreicht ihr unter **wall.c3pixelflut.de** und lauscht auf dem TCP-Port **1337**
+Den Server an der Wand erreicht ihr aus dem Congress netz und dem Rest der 🌍 unter **wall.c3pixelflut.de** und lauscht auf dem TCP-Port **1337**
+Bei uns **Lokal am Switch** (Ja **nur** da!) ist der Server über **table.c3pixelflut.de** auf TCP-Port **1337** erreichbar.
 
-Der Server für Einsteiger ist erreichbar via **newcomer.c3pixelflut.de** und lauscht auf dem TCP-Port **1337**
+Der Server für Einsteiger ist bei uns **Lokal am Switch** (Ja **nur** da!) erreichbar via **newcomer.c3pixelflut.de** und lauscht auf dem TCP-Port **1337**
 
 <font size="5" style="color:red;">⚠️ Verbindungen aus dem WLAN werden blockiert️⚠️</font>
 
