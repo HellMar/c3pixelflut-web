@@ -10,7 +10,7 @@ Am Tisch hast du somit eine gute Chance auf ein volles Gigabit mit deinem Laptop
 Wir haben Verbindungen aus dem WLAN blockiert, um das WLAN für alle halbwegs nutzbar zu halten. Bitte nutzt das verkabelte Netzwerk.
 
 **IPv6?**
-Nein danke.
+Ne... Ums für alle fair zu halten gibt's nur legacy IPs.
 
 **Wo finde ich den Quellcode des Servers?**
 Den findest du hier [Server Source](https://github.com/bits0rcerer/wellenbrecher)
