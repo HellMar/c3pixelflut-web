@@ -7,7 +7,7 @@ Hosts & Ports geben wir vor Ort bekannt.
 
 ### Statistiken
 
-Die Statistiken zu unserem Server findest du unter **[stats.c3pixelflut.de](https://stats.c3pixelflut.de)**
+Die Statistiken zu unserem Server findest du unter **[dashboard.c3pixelflut.de](https://dashboard.c3pixelflut.de)**
 
 ### Befehle
 
