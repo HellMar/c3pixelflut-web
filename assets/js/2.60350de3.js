@@ -1,6 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{343:function(t,e,o){},344:function(t,e,o){},350:function(t,e,o){t.exports=o.p+"assets/img/logo.af8d614f.svg"},351:function(t,e,o){"use strict";
-/*!
- * vue-no-ssr v1.1.1
- * (c) 2018-present egoist <0x142857@gmail.com>
- * Released under the MIT License.
- */var n={name:"NoSsr",functional:!0,props:{placeholder:String,placeholderTag:{type:String,default:"div"}},render:function(t,e){var o=e.parent,n=e.slots,s=e.props,r=n(),l=r.default;void 0===l&&(l=[]);var a=r.placeholder;return o._isMounted?l:(o.$once("hook:mounted",(function(){o.$forceUpdate()})),s.placeholderTag&&(s.placeholder||a)?t(s.placeholderTag,{class:["no-ssr-placeholder"]},s.placeholder||a):l.length>0?l.map((function(){return t(!1)})):t(!1))}};t.exports=n},352:function(t,e,o){"use strict";o(343)},353:function(t,e,o){"use strict";o(344)},364:function(t,e,o){"use strict";o.r(e);var n=o(351),s={components:{"no-ssr":o.n(n).a}},r=(o(352),o(353),o(53)),l=Object(r.a)(s,(function(){var t=this.$createElement,e=this._self._c||t;return e("figure",[e("router-link",{staticClass:"logo-link",attrs:{to:"/"}},[e("img",{staticClass:"logo",attrs:{src:o(350),id:"logo",alt:"c3Pixelflut Logo"}})]),this._v(" "),e("no-ssr",[e("pixel-grid",{staticClass:"grid"})],1)],1)}),[],!1,null,"74df99e9",null);e.default=l.exports}}]);
