@@ -1,10 +1,7 @@
 # Wie?
 
-### Server IPs
-Den Server an der Wand erreicht ihr aus dem Congress netz und dem Rest der 🌍 unter **wall.c3pixelflut.de** und lauscht auf dem TCP-Port **1337**
-Bei uns **Lokal am Switch** (Ja **nur** da!) ist der Server über **table.c3pixelflut.de** auf TCP-Port **1337** erreichbar.
-
-Der Server für Einsteiger ist bei uns **Lokal am Switch** (Ja **nur** da!) erreichbar via **newcomer.c3pixelflut.de** und lauscht auf dem TCP-Port **1337**
+### Server
+Hosts & Ports geben wir vor Ort bekannt.
 
 <font size="5" style="color:red;">⚠️ Verbindungen aus dem WLAN werden blockiert️⚠️</font>
 
@@ -50,5 +47,5 @@ for x in range(w):
 
 #### Aufruf
 ``` bash
-python3 client.py wall.c3pixelflut.de 1337 picture.png
+python3 client.py <host> <port> picture.png
 ```

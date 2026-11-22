@@ -4,8 +4,8 @@
   "author": "c3Pixelflut",
   "private": true,
   "scripts": {
-    "dev": "vuepress dev content",
-    "build": "vuepress build content"
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev content",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build content"
   },
   "devDependencies": {
     "vuepress": "^1.9.7"
