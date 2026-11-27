@@ -2,6 +2,7 @@
   <footer>
     <section>
       <p>Website based on <a href="https://github.com/chaostreff-flensburg/ruetueta-web">https://github.com/chaostreff-flensburg/ruetueta-web</a></p>
+      <p><a rel="me" href="https://chaos.social/@c3pixelflut">Mastodon</a></p>
     </section>
   </footer>
 </template>
