@@ -13,8 +13,9 @@ footer {
   padding: 24px 0;
   margin-top: 32px;
 
-  color: var(--white);
-  background-color: var(--black);
+  color: var(--foreground);
+  background-color: var(--background);
+  border-top: 2px solid var(--accent);
 }
 section {
   display: flex;
@@ -24,9 +25,16 @@ section {
   margin: auto;
   max-width: var(--max-site-width);
 
+  padding: 0 16px;
+
   font-size: 14px;
 }
 a {
+  color: var(--accent);
   text-decoration: none;
+}
+a:hover {
+  color: var(--hover);
+  text-decoration: underline;
 }
 </style>

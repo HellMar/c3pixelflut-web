@@ -29,23 +29,44 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  gap: 4px;
 
+  border: 2px solid var(--accent);
   border-radius: var(--border-radius);
   background-color: var(--background);
-  box-shadow: 0 4px 12px var(--shadow);
+  box-shadow: var(--box-shadow);
 }
 @media (max-width: 920px) {
   nav {
-    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
   }
 }
 a {
-  padding: 2px 4px;
+  padding: 2px 10px;
 
   color: var(--foreground);
-  font-size: 18px;
+  font-family: var(--font-heading);
+  font-size: 26px;
   font-weight: 400;
+  letter-spacing: 0.025em;
+  line-height: 1.2;
   text-align: center;
   text-decoration: none;
+}
+a:hover {
+  color: var(--hover);
+}
+a.router-link-active {
+  color: var(--color-dark);
+  background-color: var(--accent);
+}
+a.router-link-active:hover {
+  color: var(--color-dark);
+  background-color: var(--hover);
+}
+a:focus-visible {
+  outline: 2px solid var(--hover);
+  outline-offset: 2px;
 }
 </style>
