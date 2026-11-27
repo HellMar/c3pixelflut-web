@@ -1,7 +1,7 @@
 <template>
   <figure>
     <router-link to="/" class="logo-link">
-      <img src="../../assets/logo.svg" class="logo" id="logo" alt="c3Pixelflut Logo">
+      <span class="logo" id="logo" aria-label="c3Pixelflut"><span class="logo-c3">c3</span>Pixelflut</span>
     </router-link>
     <no-ssr>
       <pixel-grid class="grid"></pixel-grid>
@@ -32,27 +32,41 @@ figure {
   padding-bottom: 24px;
   margin: 0;
 }
+.logo-link {
+  text-decoration: none;
+}
+/* Wordmark in Jersey 10. On larger screens it is invisible and only reserves
+   the space - the pixel grid draws it (see energyLogo in pixel-grid.vue).
+   187.5px = one Jersey-10 font pixel per 10px grid cell. */
 .logo {
   position: relative;
   z-index: 10;
+  display: inline-block;
 
-  width: 640px;
   margin: 0 12px;
 
+  color: var(--color-neutral);
+  font-family: var(--font-heading);
+  font-size: 187.5px;
+  font-weight: 400;
+  line-height: 1;
+  white-space: nowrap;
+
   cursor: pointer;
-  filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.25));
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
-@media (max-width: 700px) {
+.logo-c3 {
+  color: var(--color-primary);
+}
+@media (max-width: 760px) {
   .logo {
-    width: 95vw;
+    font-size: 24vw;
     margin: 0 auto;
   }
 }
 @media (max-width: 420px) {
   .logo {
-    width: 90vw;
     opacity: 1;
   }
 }
